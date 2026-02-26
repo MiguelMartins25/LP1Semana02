@@ -29,6 +29,9 @@ namespace TempConvert
                     Console.WriteLine("Invalid unit.");
                     break;
             }
+            Console.Write("Absolute value: ");
+            double absolutetemp = Math.Abs(temperaturedub);
+            Console.WriteLine(absolutetemp);
         }
     }
 }
